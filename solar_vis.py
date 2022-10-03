@@ -113,7 +113,6 @@ def update_object_position(space, body):
                      window_width + 2*r, window_height + 2*r)  # положить за пределы окна
     space.coords(body.image, x - r, y - r, x + r, y + r)
 
-print('test commit')
 
 if __name__ == "__main__":
     print("This module is not for direct call!")
